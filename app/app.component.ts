@@ -14,7 +14,8 @@ export class AppComponent {
   }
   showPdf() {
     const linkSource =
-      'data:application/octet-stream;base64,' + 'Ingrese el codigo aqui';
+      'data:application/octet-stream;base64,' +
+       'Ingrese el codigo aqui';
     const downloadLink = document.createElement('a');
     const fileName = 'sample.docx';
 
